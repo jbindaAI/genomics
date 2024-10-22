@@ -10,7 +10,7 @@ For final results I have used the following parameters:
 * window_size = 10000
 * step = 1000  
 
-The histogram of GC content accross windows is centered around ~0.52.
+The histogram of GC content accross windows is centered around ~0.52.  
 The GC-skew plot shows characteristic relation with two sharp transitions: from positive to negative and from negative to positive skew. It is well known effect raising from a mechanism of DNA replication in bacteria. Replication of a single strand starts in an origin of replication and is conducted in two directions resulting in leading strand and lagging strand. In general, guanosine is more abundant in leading strand rather than in lagging strand. This is why in leading strand GC-skew will be rather positive and leading strand will be rather negative. Transition points between negative and positive GC-skew are origin of replication and terminator of replication.
 
 ## Dependencies
@@ -25,9 +25,9 @@ The script uses the following libraries:
 This function reads a FASTA file containing a single DNA sequence and computes two key statistics:
 1. **GC Content**: The percentage of nucleotides in a window that are either Guanine (G) or Cytosine (C).
 2. **GC Skew**: Measures the relative abundance of G vs C using the formula:
-   \[
-   \text{GC Skew} = \frac{G - C}{G + C}
-   \]
+    ```math
+    \text{GC Skew} = \frac{G - C}{G + C}
+    ```
    
 #### Parameters:
 - `path2file` (str): Path to the input FASTA file.
