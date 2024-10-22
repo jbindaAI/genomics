@@ -11,7 +11,10 @@ For final results I have used the following parameters:
 * step = 1000  
 
 The histogram of GC content accross windows is centered around ~0.52.  
-The GC-skew plot shows characteristic relation with two sharp transitions: from positive to negative and from negative to positive skew. It is well known effect raising from a mechanism of DNA replication in bacteria. Replication of a single strand starts in an origin of replication and is conducted in two directions resulting in leading strand and lagging strand. In general, guanosine is more abundant in leading strand rather than in lagging strand. This is why in leading strand GC-skew will be rather positive and leading strand will be rather negative. Transition points between negative and positive GC-skew are origin of replication and terminator of replication.
+The GC-skew plot shows characteristic relation with two sharp transitions: from positive to negative and from negative to positive skew. It is well known effect raising from a mechanism of DNA replication in bacteria. Replication of a single strand starts in an origin of replication and is conducted in two directions resulting in leading strand and lagging strand. In general, guanosine is more abundant in leading strand rather than in lagging strand. This is why for leading strand GC-skew will be rather positive and for lagging strand will be rather negative. Transition points between negative and positive GC-skew are origin of replication and terminator of replication.  
+
+References:  
+Frederick R. Blattner et al. ,The Complete Genome Sequence of Escherichia coli K-12.Science277,1453-1462(1997).DOI:10.1126/science.277.5331.1453
 
 ## Dependencies
 The script uses the following libraries:
