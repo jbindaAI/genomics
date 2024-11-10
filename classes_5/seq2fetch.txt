@@ -1,0 +1,10 @@
+Escherichia coli
+Bacillus subtilis
+Methanobrevibacter smithii
+Thermus aquaticus
+Cyanobacterium aponinum
+Helicobacter pylori
+Halobacterium salinarum
+Clostridium botulinum
+Borrelia burgdorferi
+Pseudomonas aeruginosa
